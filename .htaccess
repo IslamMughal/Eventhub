@@ -1,0 +1,5 @@
+# Sundar URL: /event_hub/event/5  ->  event.php?id=5   (mod_rewrite on ho to)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^event/([0-9]+)/?$ event.php?id=$1 [L,QSA]
+</IfModule>
