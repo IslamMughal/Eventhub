@@ -88,7 +88,7 @@ function notify($user_id, $msg, $link = '') {
     global $pdo;
     $pdo->prepare("INSERT INTO notifications (user_id,message,link) VALUES (?,?,?)")->execute([$user_id, $msg, $link]);
     $s = $pdo->prepare("SELECT email FROM users WHERE id=?"); $s->execute([$user_id]);
-    if ($mail = $s->fetchColumn()) @mail($mail, SITE_NAME . ' notification', $msg, 'From: no-reply@eventhub.local'); // XAMPP me mail setup ho to jaye gi
+    if ($mail = $s->fetchColumn()) @mail($mail, SITE_NAME . ' notification', $msg, 'From: no-reply@eventify.local'); // XAMPP me mail setup ho to jaye gi
 }
 
 // ---------- Events ----------

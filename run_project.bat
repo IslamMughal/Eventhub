@@ -1,13 +1,13 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-title Event Hub Launcher
+title Eventify Launcher
 
 set "MARIADB_BIN=C:\Users\islam\mariadb\bin"
 set "PHP_BIN=C:\Users\islam\AppData\Local\Microsoft\WinGet\Packages\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe\php.exe"
 
 echo ========================================================
-echo               Starting Event Hub Project
+echo               Starting Eventify Project
 echo ========================================================
 
 REM 1. Check if MariaDB / MySQL is running on port 3306
@@ -36,7 +36,7 @@ start http://localhost:8000/
 
 echo.
 echo ========================================================
-echo  Event Hub is running!
+echo  Eventify is running!
 echo  URL: http://localhost:8000/
 echo.
 echo  Demo Credentials:

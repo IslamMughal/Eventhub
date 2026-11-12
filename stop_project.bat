@@ -1,10 +1,10 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-title Stop Event Hub
+title Stop Eventify
 
 echo ========================================================
-echo               Stopping Event Hub Servers
+echo               Stopping Eventify Servers
 echo ========================================================
 
 REM Stop PHP server

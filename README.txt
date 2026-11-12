@@ -1,4 +1,4 @@
-EVENT HUB - PHP + MySQL + Bootstrap 5   (v4 - Neon Noir sidebar layout)
+EVENTIFY - PHP + MySQL + Bootstrap 5   (v4 - Neon Noir sidebar layout)
 ================================================================
 SETUP (XAMPP)
 1. Folder "event_hub" ko  C:\xampp\htdocs\  me copy karo.

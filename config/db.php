@@ -9,8 +9,8 @@ if (!defined('BASE_URL')) {
         define('BASE_URL', '/');
     }
 }
-define('SITE_NAME', 'Event Hub');
-define('SITE_EMAIL', 'info@eventhub.com');            // footer me dikhta hai
+define('SITE_NAME', 'Eventify');
+define('SITE_EMAIL', 'info@eventify.com');            // footer me dikhta hai
 define('SITE_PHONE', '+92 300 0000000');
 define('SITE_ADDRESS', 'Gujranwala, Punjab, Pakistan');
 
